@@ -10,7 +10,7 @@ class Zqta < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/1.0.1/zqta_1.0.0_darwin_amd64.tar.gz"
+    url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_amd64.tar.gz"
     sha256 "f69acf24636ad269db82f9a2ce845bb69fe7041c15daa0e6f4ca521f738f4725"
 
     def install
@@ -18,7 +18,7 @@ class Zqta < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/1.0.1/zqta_1.0.0_darwin_arm64.tar.gz"
+    url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_arm64.tar.gz"
     sha256 "afb4eb850bd24e934d4750f0fa3329bf418f04334f35d965e849496d09134e74"
 
     def install
