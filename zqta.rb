@@ -11,7 +11,7 @@ class Zqta < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_amd64.tar.gz"
-    sha256 "330fd467d74019ba4fc7f7245f8ca1819f3f885a19d02d9b0425cdb4583a73e0"
+    sha256 "521e2bdb3e2f195cd02db0c75386993d10a6df9b4c4756af0d9034e5f1f69baa"
 
     def install
       bin.install "zqta"
@@ -19,7 +19,7 @@ class Zqta < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_arm64.tar.gz"
-    sha256 "6bb90078f0f4203da66da459549ca5d9ae898a3101579495f244b4252833b1fb"
+    sha256 "6bd11ae69f5873d502b70be0c258b76edccf871db121ebdec55611484e8cd9fb"
 
     def install
       bin.install "zqta"
