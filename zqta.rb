@@ -10,7 +10,7 @@ class Zqta < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_darwin_amd64.tar.gz"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_amd64.tar.gz"
       sha256 "f2912117e9670e856db65c1cfdcde9182d0d194c0034f297d4af378c39251dd2"
 
       def install
@@ -18,7 +18,7 @@ class Zqta < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_darwin_arm64.tar.gz"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_arm64.tar.gz"
       sha256 "b23dd806b0543892746e6ac38a2c187821f2a44f1741d521abc5efe117de8768"
 
       def install
@@ -29,21 +29,21 @@ class Zqta < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_linux_amd64.tar.gz"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_linux_amd64.tar.gz"
       sha256 "5dc8c22187a9eb709db0068105f066ce192068007285ff36200a7ad647259e53"
       def install
         bin.install "zqta"
       end
     end
     if Hardware::CPU.arm? and !Hardware::CPU.is_64_bit?
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_linux_arm.tar.gz"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_linux_arm.tar.gz"
       sha256 "e8b5b8dcf315f2bc45c1fc038825a77557ba830699a7ffd35accf09ec6c3fdfe"
       def install
         bin.install "zqta"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_linux_arm64.tar.gz"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_linux_arm64.tar.gz"
       sha256 "e331d4a2876e82d9b63f3e01c3d10004ba88e844939c029d6908d2604ad89cc4"
       def install
         bin.install "zqta"
