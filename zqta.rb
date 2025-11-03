@@ -11,7 +11,7 @@ class Zqta < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_amd64.tar.gz"
-      sha256 "f2912117e9670e856db65c1cfdcde9182d0d194c0034f297d4af378c39251dd2"
+      sha256 "52740b4c0978d7e93015e28fd28616d195726d48a953eb46413beae94a0f70fb"
 
       def install
         bin.install "zqta"
@@ -19,7 +19,7 @@ class Zqta < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_darwin_arm64.tar.gz"
-      sha256 "b23dd806b0543892746e6ac38a2c187821f2a44f1741d521abc5efe117de8768"
+      sha256 "dd0e77a611d5a60e1746858b0cef4026edee6b3bc63f1f46d71ebb2279bfd9e2"
 
       def install
         bin.install "zqta"
@@ -30,21 +30,21 @@ class Zqta < Formula
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_linux_amd64.tar.gz"
-      sha256 "5dc8c22187a9eb709db0068105f066ce192068007285ff36200a7ad647259e53"
+      sha256 "a21f602dcb4b1d352763e388d1835010a3bf08eda7830ba7fbea541dcbc43ce4"
       def install
         bin.install "zqta"
       end
     end
     if Hardware::CPU.arm? and !Hardware::CPU.is_64_bit?
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_linux_arm.tar.gz"
-      sha256 "e8b5b8dcf315f2bc45c1fc038825a77557ba830699a7ffd35accf09ec6c3fdfe"
+      sha256 "82bbfcdb02a1dd9a43082640ede1e980e52380b82ed2a15c6bf02dc84c5592c6"
       def install
         bin.install "zqta"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_1.0.0_linux_arm64.tar.gz"
-      sha256 "e331d4a2876e82d9b63f3e01c3d10004ba88e844939c029d6908d2604ad89cc4"
+      sha256 "ecd41bfaf2d9bf4e1e8783c9bfa13127e17b69e3955c5ac7d6bdeb1abc881c3d"
       def install
         bin.install "zqta"
       end
