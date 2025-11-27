@@ -2,7 +2,7 @@
 cask "zqta" do
   desc "ZQTA project."
   homepage "https://github.com/VinCSS-Public-Projects/ZQTA"
-  version "1.0.0-prerelease"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "zqta" do
 
   on_macos do
     on_intel do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_darwin_amd64.tar.gz"
-      sha256 "b2b66a57e0b0e1425556e7275b08e3347336bbe7c142f25e6d1cc0e17606c505"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_darwin_amd64.tar.gz"
+      sha256 "c73ee28515917e168962a28034cedb97b258116d6ea235dc9efcb2abe3c566f1"
     end
     on_arm do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_darwin_arm64.tar.gz"
-      sha256 "ccd4751470f42f854018f6d06cc06817474a1bab4041360e9f0e4c4d35936ea9"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_darwin_arm64.tar.gz"
+      sha256 "502a1f0372a2e44cfa74a72f35d14f70ca53b0a5537532cfc693b457edd78700"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_linux_amd64.tar.gz"
-      sha256 "400af8e434d7d0aec5e19c587c7caa819f22d68288acb57dec5bdaf26edbab4e"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_linux_amd64.tar.gz"
+      sha256 "3184f4768a08e526011aefc3528efe7351b2794a190cf6a3833e78d3cde5fc49"
     end
     on_arm do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_linux_arm64.tar.gz"
-      sha256 "89f02a075082f3e33a45ecde01938eb442304cb5374aea9e1172a0ea6fe20dfb"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_linux_arm64.tar.gz"
+      sha256 "be1cfac139985737eaaa348da90e5e88a5b7cac4a2abb32d8b5606a52cf78d95"
     end
   end
 
