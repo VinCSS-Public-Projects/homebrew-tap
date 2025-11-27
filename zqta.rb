@@ -2,7 +2,7 @@
 cask "zqta" do
   desc "ZQTA project."
   homepage "https://github.com/VinCSS-Public-Projects/ZQTA"
-  version "1.0.0"
+  version "1.0.0-prerelease"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "zqta" do
 
   on_macos do
     on_intel do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_darwin_amd64.tar.gz"
-      sha256 "b282e998d1ce0745865dda7e27cb4409b267faea3e7a277d26d7a5666d94d7fa"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_darwin_amd64.tar.gz"
+      sha256 "b2b66a57e0b0e1425556e7275b08e3347336bbe7c142f25e6d1cc0e17606c505"
     end
     on_arm do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_darwin_arm64.tar.gz"
-      sha256 "4704cfe81525d4b9db36d9f7444221d28ba095b7e9ca4b992f1bd1b27397cf05"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_darwin_arm64.tar.gz"
+      sha256 "ccd4751470f42f854018f6d06cc06817474a1bab4041360e9f0e4c4d35936ea9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_linux_amd64.tar.gz"
-      sha256 "2e3522b94342ba0ad706d05651d7c99c99c493d1c099c0f5c4c79e31bc672e69"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_linux_amd64.tar.gz"
+      sha256 "400af8e434d7d0aec5e19c587c7caa819f22d68288acb57dec5bdaf26edbab4e"
     end
     on_arm do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta_v1.0.0_linux_arm64.tar.gz"
-      sha256 "527232e29ac355acf8d8e74fe2cb2878beecc9a14ba9bc9e0898998a2cbd9252"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0-prerelease/zqta_v1.0.0-prerelease_linux_arm64.tar.gz"
+      sha256 "89f02a075082f3e33a45ecde01938eb442304cb5374aea9e1172a0ea6fe20dfb"
     end
   end
 
