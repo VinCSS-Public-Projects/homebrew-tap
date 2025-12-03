@@ -13,11 +13,11 @@ cask "zqta-ui" do
   on_macos do
     on_intel do
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta-ui_1.0.0_darwin_amd64.tar.gz"
-      sha256 "85340cd78486ec62fbdaed6770550eee84d0302fde385b6814a72110be28b671"
+      sha256 "abc319ee253df8f057e34d557f36a3238b9de0df23efa4ad80d5a8ce73a12f83"
     end
     on_arm do
       url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta-ui_1.0.0_darwin_arm64.tar.gz"
-      sha256 "a982d09895d57860eb577628c745b0e2d1de5c13f5c86bf8f522b3a79ad9615c"
+      sha256 "13ed07a155306d1f763127974e1c2eca2919f7b135bba55d999b89a1f478e9ee"
     end
   end
 
