@@ -2,7 +2,7 @@
 cask "zqta-ui" do
   desc ""
   homepage ""
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,12 +12,12 @@ cask "zqta-ui" do
 
   on_macos do
     on_intel do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta-ui_1.0.0_darwin_amd64.tar.gz"
-      sha256 "9ee017ee282c4d8a17ebc25402d303d65c0324ddbedac074d94a63439c8d005a"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.1/zqta-ui_1.0.1_darwin_amd64.tar.gz"
+      sha256 "986e55e24de643d2a7eb1d97b68e5d9e8720d557d745e30ec0129eb0d8adcd58"
     end
     on_arm do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.0/zqta-ui_1.0.0_darwin_arm64.tar.gz"
-      sha256 "6fe07945488a18f9cbc0b6eda87ecee716b5b3a410d0f6fa0f545dc4a3b97f18"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.1/zqta-ui_1.0.1_darwin_arm64.tar.gz"
+      sha256 "ff61423aa9e2631b40ac859d522474f06ac03fb2de7ea60f21c3ab2fb56e8491"
     end
   end
 
