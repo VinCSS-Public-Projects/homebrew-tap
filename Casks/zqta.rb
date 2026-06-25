@@ -10,14 +10,14 @@ cask "zqta" do
 
   binary "zqta"
 
-  on_macos do
+  on_linux do
     on_intel do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.10/zqta_v1.0.10_darwin_amd64.tar.gz"
-      sha256 "6569f046a873ac98deeafd72ce692205b8befaa2fcfd22b2d55a8c1ab38e47bf"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.10/zqta_v1.0.10_linux_amd64.tar.gz"
+      sha256 "4402362bc1db6d422e5b5c087c2e6e38ca2702609d6fde4752e29dfaf4045ef7"
     end
     on_arm do
-      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.10/zqta_v1.0.10_darwin_arm64.tar.gz"
-      sha256 "3faba833309e0aebd473f80939d713d742dcee47a678998effae06b9dee435d6"
+      url "https://github.com/VinCSS-Public-Projects/ZQTA/releases/download/v1.0.10/zqta_v1.0.10_linux_arm64.tar.gz"
+      sha256 "b6ef078c8c540d08f1c9c6a66b425a96bf7b11c49e0d057a3fb843505eca402c"
     end
   end
 
